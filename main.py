@@ -33,6 +33,7 @@ def button_click():
         ergebnisgesamt = ergebnishoehe / input3_val
 
         result_label.config(text=f"Ergebnis: {ergebnisgesamt:.4f}")
+
     except ValueError:
         messagebox.showerror("Ungültige Eingabe", "Bitte geben Sie nur ganze Zahlen ein!")
 
